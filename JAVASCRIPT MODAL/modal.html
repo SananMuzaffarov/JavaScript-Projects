@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Modal</title>
+    <link rel="stylesheet" href="modal.css">
+</head>
+<body>
+    
+    <!--Our Header-->
+    <h2>JavaScript Modal Example</h2>
+    <!--Our Button for opening Modal-->
+    <button type="button" id="myBtn" onclick="pressHere();">Click Me!</button>
+    <!--Our Modal-->
+    <div class="modal" id="myModal">
+    <!--Our Modal Content-->
+    <div class="modal-content">
+        <span class="close" onclick="clickHere();">&times;</span><!--for closing our modal-->
+        <p>Hi guys, this page is about the Modal</p>
+        <a href="https://www.linkedin.com/in/sananmuzaffarov/" style="position: absolute; display: flex; margin-top: 20px;">Click here and go to the my Linkedin profile</a>
+    </div>
+    </div>
+
+    <script src="modal.js"></script>
+</body>
+</html>
