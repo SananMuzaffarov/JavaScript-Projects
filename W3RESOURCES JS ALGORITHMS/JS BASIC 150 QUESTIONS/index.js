@@ -25,6 +25,36 @@ function findLeapYear(year){
 }
 console.log(findLeapYear(2000));
 
+// QUESTION 7 - Write a JavaScript program to find which 1st January is being a Sunday between 2014 and 2050.
+for(var year = 2014; year <= 2050; year++){
+    var d = new Date(year, 0, 1);
+    if( d.getDay() === 0 )
+        console.log("1st January is being a Sunday  " + year);
+    }
+
+// QUESTION 8 -  Write a JavaScript program where the program takes a random integer between 1 to 10......
+const num = Math.ceil(Math.random() * 10);
+console.log(num);
+ const yourNum = prompt("Enter the Number");
+ if (yourNum == num){
+   console.log('Matched');
+   }
+  else{
+   console.log('Not matched, the number was '+ yourNum);    
+      }
+
+// QUESTION 10 - Write a JavaScript program to calculate multiplication and division of two numbers (input from user).
+function multiply(){
+        var num1 = document.getElementById("firstNum").value;
+        var num2 = document.getElementById("secondNum").value;
+        console.log(num1 * num2);
+}
+function divide(){ 
+        var num1 = document.getElementById("firstNum").value;
+        var num2 = document.getElementById("secondNum").value;
+        console.log(num1 / num2);
+}
+
 // QUESTION 11 - Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit.
 function toCelsius(f){
     return (5/9) * (f-32);
@@ -43,6 +73,7 @@ console.log(this[yourName]);
 // QUESTION 14 - Write a JavaScript exercise to get the extension of a filename. 
 var fileName = "Ders.pdf";
 console.log(fileName.split('.').pop());
+
 
  
 
