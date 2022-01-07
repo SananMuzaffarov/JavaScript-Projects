@@ -74,6 +74,62 @@ console.log(this[yourName]);
 var fileName = "Ders.pdf";
 console.log(fileName.split('.').pop());
 
+// QUESTION 15 - Write a JavaScript program to get the difference between a given number and 13, if the number is greater than 13 return double the absolute difference.
+function doubleDiff(v){
+    if(v <= 13){
+        return (13 - v);
+    }
+    else{
+        return (v - 13) * 2;
+    }
+}
+console.log(doubleDiff(22));
+
+// QUESTION 16 - Write a JavaScript program to compute the sum of the two given integers. If the two values are same, then returns triple their sum. 
+function sumInt(a,b){
+    if(a != b){
+        return (a + b);
+    }
+    else{
+        return (a + b) * 3;
+    }
+}
+console.log(sumInt(5,6))
+
+
+
+
+
+// QUESTION 17 - Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19. 
+function diffNum(n){
+    if (n <= 19){
+      return (19 - n);
+    }
+    else{
+       return (n - 19) * 3;
+        }
+}
+console.log(diffNum(10));
+
+// QUESTION 18 - Write a JavaScript program to check two given numbers and return true if one of the number is 50 or if their sum is 50. 
+function findThis(x, y){
+  return ((x == 50 || y == 50) || (x + y == 50));
+}
+console.log(findThis(50, 50))
+
+
+
+// QUESTION 20 - Write a JavaScript program to check from two given integers, whether one is positive and another one is negative. 
+function find(x,y){
+    if((x>0 && y<0) || (x<0 && y>0)){
+        return true
+    }
+    else{
+        return false
+    }
+}
+console.log(find(2,2));
+
 
  
 
