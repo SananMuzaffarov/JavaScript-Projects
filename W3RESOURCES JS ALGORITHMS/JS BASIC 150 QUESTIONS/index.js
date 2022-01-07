@@ -96,10 +96,6 @@ function sumInt(a,b){
 }
 console.log(sumInt(5,6))
 
-
-
-
-
 // QUESTION 17 - Write a JavaScript program to compute the absolute difference between a specified number and 19. Returns triple their absolute difference if the specified number is greater than 19. 
 function diffNum(n){
     if (n <= 19){
@@ -117,7 +113,12 @@ function findThis(x, y){
 }
 console.log(findThis(50, 50))
 
-
+// QUESTION 19 - Write a JavaScript program to check whether a given integer is within 20 of 100 or 400. 
+function testFunc(x){
+    return ((Math.abs(100 - x) <= 20) ||
+       (Math.abs(400 - x) <= 20));
+}
+console.log(testFunc(31));
 
 // QUESTION 20 - Write a JavaScript program to check from two given integers, whether one is positive and another one is negative. 
 function find(x,y){
@@ -129,6 +130,43 @@ function find(x,y){
     }
 }
 console.log(find(2,2));
+
+// QUESTION 21 - Write a JavaScript program to create a new string adding "Py" in front of a given string. If the given string begins with "Py" then return the original string. 
+function checker(str1){
+    if (str1 === null || str1 === undefined || str1.substring(0, 2) === 'Py'){
+      return str1;
+    }
+      return "Py" + str1;
+    }
+console.log(checker("Python"));
+
+// QUESTION 25 - Write a JavaScript program to check whether a given positive number is a multiple of 3 or a multiple of 7.
+function q25(x){
+  if (x % 3 == 0 || x % 7 == 0){
+    return true;
+  } 
+  else{
+    return false;
+  }
+}
+console.log(q25(8));
+
+// QUESTION 28 - Write a JavaScript program to check whether two given integer values are in the range 50..99 (inclusive). Return true if either of them are in the said range.
+function findRange(y,z){
+    if((y>=50 && y<=99) || (z>=50 && z<=99)){
+        return true;
+    }
+    else{
+        return false;
+    }
+}
+console.log(findRange(51,57));
+
+// QUESTION 29 - Write a JavaScript program to check whether three given integer values are in the range 50..99 (inclusive). Return true if one or more of them are in the said range.
+function findRangeThree(x, y, z){
+  return (x >= 50 && x <= 99) || (y >= 50 && y <= 99) || (z >= 50 && z <= 99);
+}
+console.log(findRangeThree(50, 90, 99));
 
 
  
