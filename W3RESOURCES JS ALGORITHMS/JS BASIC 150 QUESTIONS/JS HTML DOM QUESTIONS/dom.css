@@ -1,0 +1,18 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.first{
+    position: absolute;
+    display: flex;
+}
+.second{
+    position: absolute;
+    margin: 50px 0 0 0;
+}
+.third{
+    position: absolute;
+    margin: 150px 0 0 0;
+}
