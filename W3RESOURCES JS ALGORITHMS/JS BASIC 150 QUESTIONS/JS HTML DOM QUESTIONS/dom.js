@@ -37,3 +37,10 @@ function extraRow(){
     y.innerHTML="1";
     z.innerHTML="2";
 }
+
+// QUESTION 13 - Write a JavaScript program to get the width and height of the window (any time the window is resized).
+function getSize(){
+var w = document.documentElement.clientWidth;
+var h = document.documentElement.clientHeight;
+document.getElementById("widtHeight").innerHTML = "<h1>Width: " + w + " Height: " + h + "</h1>";
+}
