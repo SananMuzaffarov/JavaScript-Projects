@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend Mentor - Challenges</title>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <section class="landing-page">
+        <header>
+            <nav class="navigator">
+                <div class="logo">
+                    <h1>sneakers</h1>
+                </div>
+                <div class="nav-links">
+                    <ul>
+                        <li><a href="#">Collections</a></li>
+                        <li><a href="#">Men</a></li>
+                        <li><a href="#">Women</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="icons">
+                    <i class="fas fa-shopping-cart"></i>
+                    <div class="avatar">
+                        <img src="images/image-avatar.png">
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <hr>
+        <div class="images-container">
+            <div class="mainImage">
+                <img src="images/image-product-1.jpg" id="cart">
+            </div>
+            <div class="belowImage">
+                <img src="images/image-product-1.jpg" id="cart1" onclick="changePhoto();">
+                <img src="images/image-product-2.jpg" id="cart2" onclick="changePhoto();">
+                <img src="images/image-product-3.jpg" id="cart3" onclick="changePhoto();">
+                <img src="images/image-product-4.jpg" id="cart4" onclick="changePhoto();">
+            </div>
+        </div>
+        <div class="imageInfo">
+            <p>SNEAKER COMPANY</p>
+            <h1>Fall Limited Edition<br>Sneakers</h1>
+            <p id="info">These low-profile sneakers are your perfect casual wear<br>companion. Featuring a durable rubber outer sole, they'll<br>withstand everything the weather can offer</p>
+            <p id="p">$125.00</p>
+            <div class="priceCounter">
+                <span id="value">0</span>
+                <div class="button-container">
+                <button class="btn decrease">-</button>
+                <button class="btn increase">+</button>
+                 </div>
+            </div>
+            <div class="btls">
+                <button type="button" id="addToCart">Add to cart</button>
+             </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

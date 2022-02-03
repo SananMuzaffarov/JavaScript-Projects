@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.landing-page{
+    display: flex;
+    position: absolute;
+    background-color: #ffffff;
+    width: 100%;
+    height: 100vh;
+}
+header{
+    display: flex;
+    position: absolute;
+    margin: 10px 0 0 0;
+}
+.navigator{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0 0 140px;
+}
+.logo{
+    position: absolute;
+    display: flex;
+}
+.logo h1{
+    color: rgb(0, 0, 0);
+    font-weight: 700;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: 40px;
+}
+.nav-links ul{
+    list-style: none;
+    position: relative;
+    margin: 15px 0 0 250px;
+    display: flex;
+}
+.nav-links ul li a{
+    margin: 17px;
+    text-decoration: none;
+    color: rgb(94, 94, 94);
+    font-size: 14px;
+    font-weight: 500;
+    font-family: sans-serif;
+    transition: 0.5s ease;
+}
+.nav-links ul li a:hover{
+    color: black;
+}
+.icons{
+    position: relative;
+    display: flex;
+    margin: 10px 0 0 400px;
+}
+.icons i{
+    color: rgb(94, 94, 94);
+    font-size: 20px;
+    cursor: pointer;
+}
+.avatar{
+    position: absolute;
+    display: flex;
+    margin: -15px 0 0 80px;
+}
+.submenu{
+    display: none;
+    position: absolute;
+    visibility: hidden;
+    background-color: rgb(0, 153, 0);
+    width: 200px;
+    height: 200px;
+}
+.submenu:hover{
+    visibility: visible;
+    display: flex;
+}
+.icons img{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+hr{
+    margin: 130px 0 0 140px;
+    width: 77%;
+    height: 1px;
+    color: gray;
+}
+.image-container{
+    position: absolute;
+    display: flex;
+}
+.mainImage{
+    position: absolute;
+    display: flex;
+    margin: 200px 0 0 -1100px;
+    border-radius: 20px;
+}
+.mainImage img{
+    width: 350px;
+    height: 350px;
+    border-radius: 20px;
+}
+.belowImage{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 580px 0 0 -1117px;
+    border-radius: 9px;
+}
+.belowImage img{
+    width: 65px;
+    height: 65px;
+    cursor: pointer;
+    margin: 14px;
+    border-radius: 9px;
+    transition: 0.5s ease;
+}
+.belowImage img:hover{
+    opacity: 0.50;
+}
+.imageInfo{
+    position: absolute;
+    display: inline-block;
+    margin: 200px 0 0 700px;
+}
+.imageInfo p{
+   color: rgb(241, 97, 45);
+   font-size: 13px;
+   font-weight: 600;
+   letter-spacing: 1.5px;
+}
+.imageInfo h1{
+   margin-top: 13px;
+   color: rgb(0, 0, 0);
+   font-size: 45px;
+   font-weight: 600;
+}
+.imageInfo #info{
+    margin-top: 25px;
+    color: rgb(151, 151, 151);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.3;
+}
+.imageInfo #p{
+    margin-top: 20px;
+    color: #000;
+    font-weight: 700;
+    font-size: 30px;
+}
+.priceCounter{
+    position: absolute;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: -20px;
+    text-align: center;
+    align-items: center;
+}
+#value{
+    font-size: 2rem;
+    font-weight: bold;
+}
+.button-container{
+    margin-top: -55px;
+}
+.btn{
+    text-transform: uppercase;
+    background: transparent;
+    color: orangered;
+    padding: 0.375rem 0.75rem;
+    letter-spacing: var(--spacing);
+    display: inline-block;
+    transition: var(--transition);
+    font-size: 0.875rem;
+    border: 2px solid var(--clr-black);
+    cursor: pointer;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+    border-radius: var(--radius);
+    margin: 1.5rem;
+}
+.btls{
+    position: relative;
+    display: flex;
+    margin: 35px 0 0 150px;
+}
+.btls button{
+    position: relative;
+    padding: 0.375rem 2.75rem;
+    background-color: orangered;
+    color: #ffffff;
+    border-radius: 5px;
+    border: 2px solid orangered;
+    cursor: pointer;
+}
