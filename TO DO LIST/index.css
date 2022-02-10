@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+.container{
+    margin: 60px 0 0 580px;
+}
+#inputField{
+    width: 300px;
+    height: 46px;
+    border-width: 0;
+    border: 1px solid black;
+    outline: none;
+    font-size: 25px;
+    vertical-align: middle;
+}
+#addToDo{
+    margin: 0 0 0 10px;
+    height: 46px;
+    width: 50px;
+    border: 1px solid orangered;
+    vertical-align: middle;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: orangered;
+    cursor: pointer;
+}
