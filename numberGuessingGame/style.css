@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    width: 500px;
+    height: 250px;
+    background-color: #000;
+    border: 3px solid #000;
+    text-align: center;
+    margin: 150px auto;
+    padding: 15px;
+}
+.container h1{
+    color: #fff;
+}
+.container #output{
+    color: gray;
+    margin-top: 20px;
+}
+.container input{
+    width: 150px;
+    height: 20px;
+    outline: none;
+    margin-top: 30px;
+}
+.container .buttons{
+    margin-top: 20px;
+}
+.container .buttons button{
+    cursor: pointer;
+    padding: 10px 20px;
+    background-color: red;
+    border: 1px solid red;
+    color: #fff;
+    font-size: 15px;
+    
+}
