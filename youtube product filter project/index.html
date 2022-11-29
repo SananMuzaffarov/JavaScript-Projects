@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filter Project</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Filter Project</h1>
+            <div class="search-section">
+                <form action="" onsubmit="return false">
+                    <input type="text" id="search" placeholder="Search Product">
+                </form>
+            </div>
+            <div class="filter-box">
+                <a href="#" class="btn active" data-filter="all">All</a>
+                <a href="#" class="btn" data-filter="watch">Watch</a>
+                <a href="#" class="btn" data-filter="tshirt">T-Shirt</a>
+            </div>
+        </div>
+    </header>
+    <section class="container" id="store-products">
+        <div class="store-products watch">
+            <img src="images/1.png">
+            <div class="store-product-detail">
+                <h2>Apple Watch</h2>
+                <p>299$</p>
+                <a href="#">Add Cart</a>
+            </div>
+        </div>
+        <div class="store-products tshirt">
+            <img src="images/3.png">
+            <div class="store-product-detail">
+                <h2>T-Shirt</h2>
+                <p>19$</p>
+                <a href="#">Add Cart</a>
+            </div>
+        </div>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>
