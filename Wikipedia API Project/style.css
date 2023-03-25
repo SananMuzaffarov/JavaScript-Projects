@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+.logo{
+    position: absolute;
+    top: 5%;
+}
+.logo img{
+    height: 200px;
+}
+.searchPart{
+    position: absolute;
+    display: flex;
+    top: 35%;
+    flex-direction: row;
+    height: 50px;
+    width: 600px;
+    border: 1px solid rgb(223, 221, 221);
+    border-radius: 40px;
+    overflow: hidden;
+}
+#searchText{
+    height: 50px;
+    width: 440px;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0 20px;
+    font-size: 15px;
+    color: #000;
+    font-weight: 500;
+}
+.searchPart i{
+    width: 55px;
+    height: 50px;
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    right: 0;
+}
+.searchResult{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px;
+    width: 50%;
+    top: 50%;
+    height: auto;
+    border-top: 1px solid rgb(167, 165, 165);
+}
+.searchResultContent{
+    width: 100%;
+    height: 150px;
+}
+.searchResultContent .title ,.searchResultContent .link{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
+.searchResultContent .link ,.searchResultContent p{
+    font-size: 20px;
+    color: green;
+}
+.searchResultContent p{
+    color: rgb(98, 98, 98);
+}
